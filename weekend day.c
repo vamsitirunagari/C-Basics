@@ -1,39 +1,16 @@
 #include<stdio.h>
 void main()
 {
-	int x;
-	printf("Enter weekday");
-	scanf("%d",&x);
-	if(x==1)
+	int a,b;
+	printf("Enter two number\n");
+	scanf("%d %d",&a,&b);
+
+	if(a>b)
 	{
-		printf("Monday");
-	}
-	else if(x==2)
-	{
-		printf("Tuesday");
-	}
-	else if(x==3)
-	{
-		printf("Wednesday");
-	}
-	else if(x==4)
-	{
-		printf("Thursday");
-	}
-	else if(x==5)
-	{
-		printf("Friday");
-	}
-	else if(x==6)
-	{
-		printf("Saturday");
-	}
-	else if(x==7)
-	{
-		printf("Sunday");
+		printf("%d is largest",a);
 	}
 	else
 	{
-		printf("Invalid input");
+		printf("%d is largest",b);
 	}
 }
